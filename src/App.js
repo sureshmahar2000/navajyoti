@@ -14,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/course/:id" element={<CourseDetail />} />
+
+          
         </Routes>
         <Footer />
       </div>
